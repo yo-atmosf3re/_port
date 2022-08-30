@@ -4,7 +4,7 @@ import * as React from 'react';
 function AboutMe() {
    return (
       <Grid item>
-         <Box>
+         <Box >
             <Paper elevation={10} style={{ padding: '10px', margin: '30px 0', backgroundColor: '#78909c', color: 'white' }}>
                <Grid container alignItems='center' justifyContent='space-between'>
                   <Grid item >
