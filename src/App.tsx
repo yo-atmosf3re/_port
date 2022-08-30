@@ -21,7 +21,7 @@ function App() {
   )
 
   return (
-    <div>
+    <div className={s.body}>
       <ThemeProvider theme={theme}>
         <Header />
         <Main />

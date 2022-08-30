@@ -6,11 +6,11 @@ function Footer() {
       <Box>
          <AppBar color='secondary' position="relative">
             <Toolbar>
-               <Box justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 5, sm: 4 }}>
+               <Box justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 2, sm: 4 }}>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>
-                  <Box fontSize={'14px'} justifyContent={'center'} pt={{ xs: 5, sm: 3 }} pb={{ xs: 5, sm: 0 }}>
+                  <Box fontSize={'14px'} justifyContent={'center'} pt={{ xs: 5, sm: 3 }} pb={{ xs: 4, sm: 0 }}>
                      Lorem ipsum dolor sit amet. &reg; {new Date().getFullYear()}
                   </Box>
                </Box>
