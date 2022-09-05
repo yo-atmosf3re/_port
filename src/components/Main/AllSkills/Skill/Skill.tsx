@@ -12,11 +12,15 @@ function Skill() {
       <Grid item style={{ width: '300px', height: '400px' }}>
          <Box>
             <Paper elevation={5} style={skillStyles}>
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum unde aliquid incidunt ea hic, tempore quae odio iste ratione quidem, esse ipsam recusandae, blanditiis molestiae deleniti. Nihil beatae doloribus temporibus molestias ab, pariatur repudiandae fugit, molestiae quo ipsa et vero harum accusantium. Repellat quam minima iste amet, velit perferendis odit.
+               <Grid alignItems={'center'} container spacing={2} direction={'column'}>
+                  <Grid item>Icon from props</Grid>
+                  <Grid item>The skill itself from props</Grid>
+                  <Grid item>Description from props</Grid>
+               </Grid>
             </Paper>
          </Box>
       </Grid>
-   </div>);
+   </div >);
 }
 
 export default Skill;

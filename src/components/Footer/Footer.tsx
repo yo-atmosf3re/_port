@@ -6,7 +6,7 @@ function Footer() {
       <Box>
          <AppBar color='secondary' position="relative">
             <Toolbar>
-               <Box justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 2, sm: 4 }}>
+               <Box style={{ margin: '0 auto' }} justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 2, sm: 4 }}>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>
