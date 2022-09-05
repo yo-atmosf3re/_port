@@ -1,14 +1,23 @@
-import { Grid, Box, Paper } from '@mui/material';
+import { Grid, Box, Paper, Button } from '@mui/material';
 import * as React from 'react';
 
 function DistantWork() {
    return (<Grid item>
       <Box>
-         <Paper elevation={1} style={{ padding: '10px', margin: '20px 0' }}>
-            Lorem paper
+         <Paper elevation={10} style={{ padding: '10px', margin: '20px 0', backgroundColor: '#5c6bc0', color: 'white' }}>
+            <Grid container justifyContent={'space-evenly'}>
+               <Grid item alignSelf={'center'}>
+                  <Box padding={'4.5px 0 0 0'} fontSize='24px'>
+                     I'm considering remote work
+                  </Box>
+               </Grid>
+               <Grid item>
+                  <Button size='large' color="inherit"><Box borderBottom={1} fontSize='26px'>Hire me</Box></Button>
+               </Grid>
+            </Grid>
          </Paper>
       </Box>
-   </Grid>);
+   </Grid >);
 }
 
 export default DistantWork;
