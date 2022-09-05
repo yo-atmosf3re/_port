@@ -5,7 +5,7 @@ function Skill() {
    const skillStyles = {
       padding: '10px',
       margin: '20px 0',
-      backgroundColor: '#607d8b',
+      backgroundColor: '#5c6bc0',
       color: 'white',
    }
    return (<div>

@@ -5,7 +5,7 @@ function AboutMe() {
    return (
       <Grid item>
          <Box >
-            <Paper elevation={10} style={{ padding: '10px', margin: '30px 0', backgroundColor: '#78909c', color: 'white' }}>
+            <Paper elevation={10} style={{ padding: '10px', margin: '30px 0', backgroundColor: '#283593', color: 'white' }}>
                <Grid container alignItems='center' justifyContent='space-between'>
                   <Grid item >
                      <Grid item>

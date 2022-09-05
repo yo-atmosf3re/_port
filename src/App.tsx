@@ -11,10 +11,10 @@ function App() {
     {
       palette: {
         primary: {
-          main: '#78909c',
+          main: '#3949ab',
         },
         secondary: {
-          main: '#607d8b',
+          main: '#283593',
         },
       },
     }
