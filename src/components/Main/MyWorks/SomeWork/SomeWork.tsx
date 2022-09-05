@@ -1,15 +1,21 @@
 import { Grid, Box, Paper } from '@mui/material';
 import * as React from 'react';
 
+const someWorkStyles = {
+   padding: '10px',
+   margin: '20px 0',
+   backgroundColor: '#5c6bc0',
+   color: 'white',
+}
+
+const gridItemStyles = {
+   width: '300px',
+   height: '400px'
+}
+
 function SomeWork() {
-   const someWorkStyles = {
-      padding: '10px',
-      margin: '20px 0',
-      backgroundColor: '#5c6bc0',
-      color: 'white',
-   }
    return (<div>
-      <Grid item style={{ width: '300px', height: '400px' }}>
+      <Grid item style={gridItemStyles}>
          <Box>
             <Paper elevation={5} style={someWorkStyles}>
                <Grid alignItems={'center'} container spacing={2} direction={'column'}>

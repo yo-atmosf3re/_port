@@ -1,12 +1,14 @@
 import { Box, AppBar, Toolbar, Button } from '@mui/material';
 import * as React from 'react';
 
+const boxStyles = { margin: '0 auto' }
+
 function Footer() {
    return (
       <Box>
          <AppBar color='secondary' position="relative">
             <Toolbar>
-               <Box style={{ margin: '0 auto' }} justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 2, sm: 4 }}>
+               <Box style={boxStyles} justifyContent={'center'} px={{ xs: 8, sm: 100 }} py={{ xs: 2, sm: 4 }}>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>
                   <Button size='large' color="inherit">Lorem</Button>

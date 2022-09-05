@@ -1,10 +1,12 @@
 import { Grid, Box, Paper, Button } from '@mui/material';
 import * as React from 'react';
 
+const paperStyles = { padding: '10px', margin: '20px 0', backgroundColor: '#5c6bc0', color: 'white' }
+
 function DistantWork() {
    return (<Grid item>
       <Box>
-         <Paper elevation={10} style={{ padding: '10px', margin: '20px 0', backgroundColor: '#5c6bc0', color: 'white' }}>
+         <Paper elevation={10} style={paperStyles}>
             <Grid container justifyContent={'space-evenly'}>
                <Grid item alignSelf={'center'}>
                   <Box padding={'4.5px 0 0 0'} fontSize='24px'>
